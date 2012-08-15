@@ -8,7 +8,7 @@ GITHGEXECDIR=$(LIBEXECDIR)/git-hg
 FASTEXPORTDIR=$(GITHGEXECDIR)/fast-export
 
 INSTALL=/usr/bin/install -c
-SED=/bin/sed
+SED?=/bin/sed
 
 GITHG_S=bin/git-hg
 GITHG_F=$(BUILDDIR)/git-hg
